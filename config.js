@@ -24,7 +24,7 @@ const SITE = {
   wa_tampil: "0856-0938-3925",
 
   // Email
-  email: "info@contoh.com",
+  email: "sandikaarif016@gmail.com",
 
   // Jam kerja, gunakan <br> untuk pindah baris
   jam: "Sen–Sab 09.00–17.00<br>Min 10.00–15.00",
