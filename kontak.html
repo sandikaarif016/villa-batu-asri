@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontak – Villa Batu Asri</title><meta name="description" content="Hubungi kami untuk survei, simulasi cicilan, atau pertanyaan lainnya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<!-- PETUNJUK UMUM: cari tulisan EDIT. Ubah hanya teks di antara tag, jangan hapus tanda lebih kecil dan lebih besar. Simpan lalu refresh browser -->
+<!-- MENU ATAS: sama di semua halaman. Jangan diubah kecuali Anda menambah halaman baru -->
+<nav class="nav" aria-label="Menu utama">
+<div class="wrap"><strong><a href="index.html" style="text-decoration:none">Villa Batu Asri</a></strong>
+<ul>
+<li><a href="index.html">Beranda</a></li>
+<li><a href="tentang.html">Tentang</a></li>
+<li><a href="tipe-unit.html">Tipe Unit</a></li>
+<li><a href="fasilitas.html">Fasilitas</a></li>
+<li><a href="lokasi.html">Lokasi</a></li>
+<li><a href="galeri.html">Galeri</a></li>
+<li><a href="cara-sewa.html">Cara Sewa</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="kontak.html" class="active" aria-current="page">Kontak</a></li></ul></div></nav>
+<!-- EDIT JUDUL HALAMAN: teks di dalam h1 adalah judul besar, teks di dalam p adalah kalimat di bawahnya -->
+<header class="pagehead">
+<div class="wrap"><div class="crumb"><a href="index.html">Beranda</a> / Kontak</div><h1>Kontak</h1>
+<p>Hubungi kami untuk survei, simulasi cicilan, atau pertanyaan lainnya.</p></div></header>
+<!-- ========== AWAL ISI HALAMAN (edit di antara penanda ini) ========== -->
+<main>
+<section>
+<div class="wrap two"><div>
+<!-- FORMULIR: bagian ini tidak perlu diubah. Yang perlu diganti hanya nomor WhatsApp di script paling bawah halaman ini -->
+<h2>Kirim pesan via WhatsApp</h2>
+<form class="form" id="f">
+<label>Nama<input id="n" required></label>
+<label>Tipe yang diminati<select id="t"><option>36/72</option><option>45/90</option><option>60/120</option><option>Belum tahu</option></select></label>
+<label>Pesan<textarea id="m" rows="4"></textarea></label><button class="btn primary" type="submit" style="border:0;font:inherit;font-weight:700;cursor:pointer">Kirim ke WhatsApp</button></form></div>
+<!-- EDIT info kontak: dt adalah label, dd adalah isinya. Ganti alamat, jam kerja, nomor WhatsApp (dua tempat: href dan tulisan), dan email -->
+<dl class="near"><div>
+<dt>Kantor pemasaran</dt><dd>Jl. Nama Jalan No. 0, Nama Lokasi</dd></div><div>
+<dt>Jam kerja</dt><dd>Sen–Sab 09.00–17.00<br>Min 10.00–15.00</dd></div><div>
+<dt>WhatsApp</dt><dd><a href="https://wa.me/6285609383925">0856-0938-3925</a></dd></div><div>
+<dt>Email</dt><dd><a href="mailto:info@contoh.com">info@contoh.com</a></dd></div></dl></div>
+</section>
+<!-- GANTI NOMOR WHATSAPP: ubah 6281200000000 pada baris script di bawah ini dengan nomor Anda tanpa 0 dan tanpa + -->
+<script>document.getElementById("f").addEventListener("submit",function(e){e.preventDefault();var t="Halo, saya "+n.value+". Saya tertarik dengan Tipe "+document.getElementById("t").value+". "+m.value;window.open("https://wa.me/6281200000000?text="+encodeURIComponent(t),"_blank")})</script></main>
+<!-- ========== AKHIR ISI HALAMAN ========== -->
+<!-- EDIT FOOTER: alamat, nama pengembang, dan nomor WhatsApp. Footer sama di semua halaman, jadi ubah di semua file atau pakai Find dan Replace -->
+<footer>
+<div class="wrap"><div class="foot">
+<div><h4>Villa Batu Asri</h4>
+<p>Hunian nyaman dan aman untuk keluarga dan mahasiswa. FHVW+R45, Jl. Lap. Golf, Kp. Tengah, Kec. Pancur Batu, Kabupaten Deli Serdang, Sumatera Utara 20138</p></div>
+<div><h4>Halaman</h4>
+<ul>
+<li><a href="index.html">Beranda</a></li>
+<li><a href="tentang.html">Tentang</a></li>
+<li><a href="tipe-unit.html">Tipe Unit</a></li>
+<li><a href="fasilitas.html">Fasilitas</a></li>
+<li><a href="lokasi.html">Lokasi</a></li></ul></div>
+<div><h4>&nbsp;</h4>
+<ul>
+<li><a href="galeri.html">Galeri</a></li>
+<li><a href="cara-sewa.html">Cara Sewa</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="kontak.html">Kontak</a></li>
+<li><a href="https://wa.me/6285609383925">WhatsApp 0856-0938-3925</a></li></ul></div></div>
+<p>© 2026 Villa Batu Asri oleh Kelompok 1.</p>
+<p>Gambar dan ilustrasi bersifat contoh. Harga, spesifikasi, dan promo dapat berubah sewaktu-waktu tanpa pemberitahuan.</p></div></footer>
+<a class="wa" href="https://wa.me/6285609383925?text=Halo%2C%20saya%20tertarik%20dengan%20Villa%20Batu%20Asri" aria-label="Chat WhatsApp">Chat WhatsApp</a></body></html>
